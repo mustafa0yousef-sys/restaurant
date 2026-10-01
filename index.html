@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>مطعم الذوق | مذاق يستحق التجربة</title>
+    <meta name="description" content="مطعم الذوق - أطباق عربية ومشاوي طازجة بمذاق أصيل وجودة عالية.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <span>الذوق</span>
+                <small>مطعم</small>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#menu">المنيو</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#location">موقعنا</a></li>
+            </ul>
+
+            <a href="#menu" class="nav-button">اطلب الآن</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <span class="hero-label">نكهة أصيلة • جودة تستحق الثقة</span>
+
+                <h1>
+                    مذاق يبقى
+                    <span>في الذاكرة</span>
+                </h1>
+
+                <p>
+                    أطباق عربية ومشاوي طازجة نحضرها بعناية،
+                    لنقدم لك تجربة تجمع بين الطعم الأصيل والجودة العالية.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">شاهد المنيو</a>
+
+                    <a
+                        href="https://wa.me/9647700000000"
+                        target="_blank"
+                        class="btn btn-outline"
+                    >
+                        اطلب عبر واتساب
+                    </a>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>اكتشف قائمتنا</span>
+                ↓
+            </div>
+        </section>
+
+
+        <!-- Features -->
+        <section class="features">
+            <div class="container features-grid">
+
+                <div class="feature">
+                    <div class="feature-icon">🔥</div>
+                    <div>
+                        <h3>طازج يومياً</h3>
+                        <p>نختار مكوناتنا بعناية كل يوم.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🥩</div>
+                    <div>
+                        <h3>جودة عالية</h3>
+                        <p>نهتم بأدق التفاصيل في كل طبق.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">❤️</div>
+                    <div>
+                        <h3>طعم أصيل</h3>
+                        <p>نكهات عربية أصيلة تحبها من أول لقمة.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Menu -->
+        <section class="menu-section section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>قائمة الطعام</span>
+                    <h2>اختَر ما تحب</h2>
+                    <p>
+                        مجموعة مختارة من أطباقنا المحضرة بعناية لتناسب كل الأذواق.
+                    </p>
+                </div>
+
+                <div class="menu-tabs">
+
+                    <button class="tab active" data-category="main">
+                        وجبات رئيسية
+                    </button>
+<button class="tab" data-category="grill">
+                        مشاوي
+                    </button>
+
+                    <button class="tab" data-category="appetizer">
+                        مقبلات
+                    </button>
+
+                    <button class="tab" data-category="drink">
+                        مشروبات
+                    </button>
+
+                </div>
+
+
+                <div class="menu-grid">
+
+                    <!-- Main -->
+                    <article class="menu-card" data-category="main">
+                        <img
+                            src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80"
+                            alt="كبسة لحم"
+                        >
+
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h3>كبسة لحم</h3>
+                                <strong>12,000 د.ع</strong>
+                            </div>
+
+                            <p>
+                                أرز بسمتي متبل مع لحم طازج وتشكيلة من البهارات العربية.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="main">
+                        <img
+                            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+                            alt="برياني دجاج"
+                        >
+
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h3>برياني دجاج</h3>
+                                <strong>10,000 د.ع</strong>
+                            </div>
+
+                            <p>
+                                أرز برياني مع قطع الدجاج والتوابل الشرقية.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <!-- Grill -->
+                    <article class="menu-card" data-category="grill">
+                        <img
+                            src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80"
+                            alt="كباب عراقي"
+                        >
+
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h3>كباب عراقي</h3>
+                                <strong>10,000 د.ع</strong>
+                            </div>
+
+                            <p>
+                                كباب مشوي على الفحم مع البصل والطماطم والخبز الطازج.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="grill">
+                        <img
+                            src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=900&q=80"
+                            alt="شيش طاووق"
+                        >
+
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h3>شيش طاووق</h3>
+                                <strong>11,000 د.ع</strong>
+                            </div>
+
+                            <p>
+                                قطع دجاج متبلة ومشوية على الفحم بطريقة خاصة.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <!-- Appetizer -->
+                    <article class="menu-card" data-category="appetizer">
+                        <img
+                            src="https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=900&q=80"
+                            alt="حمص"
+                        >
+<div class="menu-info">
+                            <div class="menu-title">
+                                <h3>حمص</h3>
+                                <strong>4,000 د.ع</strong>
+                            </div>
+
+                            <p>
+                                حمص كريمي مع زيت الزيتون والبهارات.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="appetizer">
+                        <img
+                            src="https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=900&q=80"
+                            alt="تبولة"
+                        >
+
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h3>تبولة</h3>
+                                <strong>4,000 د.ع</strong>
+                            </div>
+
+                            <p>
+                                بقدونس طازج مع الطماطم والبرغل والليمون.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <!-- Drinks -->
+                    <article class="menu-card" data-category="drink">
+                        <img
+                            src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80"
+                            alt="عصير برتقال"
+                        >
+
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h3>عصير برتقال طبيعي</h3>
+                                <strong>3,000 د.ع</strong>
+                            </div>
+
+                            <p>
+                                عصير برتقال طازج يُحضّر عند الطلب.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="menu-card" data-category="drink">
+                        <img
+                            src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=80"
+                            alt="شاي عراقي"
+                        >
+
+                        <div class="menu-info">
+                            <div class="menu-title">
+                                <h3>شاي عراقي</h3>
+                                <strong>1,500 د.ع</strong>
+                            </div>
+
+                            <p>
+                                شاي أسود عراقي يُقدّم ساخناً.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85"
+                        alt="داخل مطعم الذوق"
+                    >
+
+                    <div class="experience">
+                        <strong>ذوق</strong>
+                        <span>يُصنع بحب</span>
+                    </div>
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label">قصتنا</span>
+
+                    <h2>
+                        أكثر من مجرد
+                        <span>وجبة</span>
+                    </h2>
+
+                    <p>
+                        في مطعم الذوق نؤمن أن الطعام الجيد يبدأ من المكونات الجيدة،
+                        لذلك نحرص على اختيار مكوناتنا بعناية وتحضير أطباقنا يومياً
+                        لنقدم لضيوفنا نكهة أصيلة وتجربة تستحق التكرار.
+                    </p>
+
+                    <p>
+                        هدفنا بسيط: أن تغادر مطعمنا وأنت راضٍ عن كل لقمة.
+                    </p>
+<a href="#location" class="text-link">
+                        زورونا اليوم ←
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Location -->
+        <section class="location section" id="location">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>نحن بانتظارك</span>
+                    <h2>زورونا</h2>
+                </div>
+
+                <div class="location-grid">
+
+                    <div class="location-card">
+
+                        <div class="location-icon">📍</div>
+
+                        <h3>موقعنا</h3>
+
+                        <p>
+                            شارع المطاعم، وسط المدينة
+                        </p>
+
+                        <a
+                            href="https://maps.google.com"
+                            target="_blank"
+                        >
+                            فتح الموقع على الخريطة
+                        </a>
+
+                    </div>
+
+
+                    <div class="location-card">
+
+                        <div class="location-icon">🕐</div>
+
+                        <h3>ساعات العمل</h3>
+
+                        <p>
+                            يومياً
+                            <br>
+                            11:00 صباحاً — 12:00 منتصف الليل
+                        </p>
+
+                    </div>
+
+
+                    <div class="location-card">
+
+                        <div class="location-icon">📞</div>
+
+                        <h3>للطلب والاستفسار</h3>
+
+                        <p>
+                            0770 000 0000
+                        </p>
+
+                        <a href="tel:+9647700000000">
+                            اتصل بنا
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+                <a href="#" class="logo footer-logo">
+                    <span>الذوق</span>
+                    <small>مطعم</small>
+                </a>
+
+                <p>
+                    مذاق أصيل، جودة عالية، وتجربة تستحق العودة.
+                </p>
+            </div>
+
+
+            <div>
+                <h3>روابط سريعة</h3>
+
+                <a href="#home">الرئيسية</a>
+                <a href="#menu">المنيو</a>
+                <a href="#about">من نحن</a>
+                <a href="#location">موقعنا</a>
+            </div>
+
+
+            <div>
+                <h3>تواصل معنا</h3>
+
+                <a href="tel:+9647700000000">
+                    0770 000 0000
+                </a>
+
+                <a href="https://wa.me/9647700000000" target="_blank">
+                    واتساب
+                </a>
+
+                <a href="#">
+                    Instagram
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <div class="container">
+                © <span id="year"></span> مطعم الذوق. جميع الحقوق محفوظة.
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- Floating WhatsApp -->
+    <a
+        href="https://wa.me/9647700000000"
+        target="_blank"
+        class="whatsapp"
+        aria-label="تواصل معنا عبر واتساب"
+    >
+        <span>واتساب</span>
+        💬
+    </a>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
